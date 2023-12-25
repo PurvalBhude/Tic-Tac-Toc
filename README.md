@@ -21,3 +21,6 @@ To play the game, simply click on any square in the grid. If it's your turn, you
 We're always looking to improve the game. Future updates may include features like score tracking, adjustable grid size, and multiplayer over the network.
 
 We hope you enjoy playing this game as much as we enjoyed building it. Happy gaming!
+
+
+Created by Purval Bhude
