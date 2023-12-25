@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tic Tac Toc</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body id="confetti-container">
+    <h1>Tic-Tac-Toc</h1>
+    <h2>Created by Purval Bhude</h2>
+    <form method="post">
+      <div>
+        <label for="player1">Player 1 (X)</label>
+        <input
+          type="text"
+          name="player1"
+          placeholder="Enter Name"
+          id="playerX"
+        />
+      </div>
+      <div>
+        <label for="player2">Player 2 (O)</label>
+        <input
+          type="text"
+          name="player2"
+          placeholder="Enter Name"
+          id="playerO"
+        />
+      </div>
+    </form>
+    <div class="buttons">
+      <button id="submit">Submit</button>
+      <button class="span"></button>
+    </div>
+    <div class="boxes">
+      <button class="box"></button>
+      <button class="box"></button>
+      <button class="box"></button>
+      <button class="box"></button>
+      <button class="box"></button>
+      <button class="box"></button>
+      <button class="box"></button>
+      <button class="box"></button>
+      <button class="box"></button>
+    </div>
+
+    <button id="Reset">Reset Game</button>
+
+    <h3></h3>
+
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
