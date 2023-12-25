@@ -70,6 +70,10 @@ reset.addEventListener("click", () => {
 const gamedraw = () => {
   wincomment.innerText =
     "Game is Draw!!! " + playerX + " and " + playerO + " both are winner!!!";
+  if (muted === false) {
+      winsound();
+    }
+    confetti();
 };
 
 const checkwinner = () => {
