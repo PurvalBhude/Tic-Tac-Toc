@@ -48,13 +48,12 @@ button.forEach((box) => {
       }
     }
     box.disabled = true;
-    console.log(x);
     count++;
-    checkwinner();
 
     if (count == 9) {
       gamedraw();
     }
+    checkwinner();
   });
 });
 
